@@ -62,14 +62,16 @@ Trained and compared the following models using **5-fold cross-validation**:
 
 On the **untouched test set** (with 95 fraud cases):  
 
-| Metric | Score |
-|--------|-------|
-| Precision | ~0.78 |
-| Recall | ~0.78 |
-| F1-Score | ~0.78 |
-| ROC-AUC | ~0.98 |
-| PR-AUC (Average Precision) | ~0.78 |
+| Metric       | Score   |
+|--------------|---------|
+| Accuracy     | 0.99  |
+| Precision    | 0.82  |
+| Recall       | 0.80 |
+| F1-score     | 0.81 |
+| ROC-AUC      | 0.95 |
+| PR-AP (Average Precision) | 0.78 |
 
+By applying a threshold of 0.45, our Random Forest model achieved a strong balance with F1 = 0.81, Precision = 0.83, and Recall = 0.80, making it highly effective in identifying fraudulent transactions while minimizing false positives.
 
 
 ## Visualizations
